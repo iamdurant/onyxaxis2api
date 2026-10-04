@@ -1,0 +1,7 @@
+# One upstream session cookie per line. Copy it from a logged-in browser:
+# F12 -> Network -> click any /api request -> Request Headers -> copy the
+# value after "cookie:". Lines starting with # are ignored.
+#
+# A bare obsidian_session token (without the "obsidian_session=" prefix) also
+# works, but copying the whole header keeps the device binding cookie too.
+obsidian_session=PASTE_YOUR_SESSION_TOKEN_HERE; obsidian_session_device=PASTE_DEVICE_COOKIE_HERE
